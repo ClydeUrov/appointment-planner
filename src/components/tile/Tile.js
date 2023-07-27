@@ -1,7 +1,6 @@
 import React from "react";
 
 export const Tile = (props) => {
-  console.log(props)
   const { contact, appointment } = props;
 
   if (contact) {

@@ -16,8 +16,6 @@ function App() {
     setAppointments([...appointments, newAppointment]);
   }
 
-  console.log("first contacts", contacts)
-
   const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/" element={ <Root/> }>
       <Route index element={ <Navigate to={ROUTES.CONTACTS} replace/> }/>

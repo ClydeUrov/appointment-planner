@@ -22,8 +22,6 @@ export const ContactsPage = ({ addContacts, contacts }) => {
       setDuplicate(true);
     } else if (!isEmailValid || !isPhoneValid) {
       setValidate(true)
-      console.log(isEmailValid, isPhoneValid)
-      console.log("Invalid phone or email format");
     } else {
       const newContact = {
         name: name,
